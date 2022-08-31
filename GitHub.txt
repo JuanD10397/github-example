@@ -1,0 +1,14 @@
+60. Creating a github repository
+
+Debo ir a GitHub en el navegador, me logueo, coloco el signo + que 
+está en la esquina superior derecha y ahí creo un nuevo repositorio.
+
+Lleno datos, luego en el git bash (lo haré dentro de esta carpeta) debo colocar:
+
+	echo "# github-example" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/JuanD10397/github-example.git
+	git push -u origin main
