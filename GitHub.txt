@@ -12,3 +12,10 @@ Lleno datos, luego en el git bash (lo haré dentro de esta carpeta) debo colocar
 	git branch -M main
 	git remote add origin https://github.com/JuanD10397/github-example.git
 	git push -u origin main
+
+Creo un README, explicaré eso luego. El branch -M main lo que hace es renombrar 
+la rama master por main, ahora solo tengo una rama llamada main
+
+Luego coloco la dirección url de mi Repositorio Central (el de github) y por último
+hago un push para que los cambios que están en el repositorio local pasen al repo
+central
